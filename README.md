@@ -6,7 +6,7 @@ To run in your computer we need to use the terminal! We assume that you have *no
 
 ## First time Step
 * Install harp ```npm install -g harp```
-* Clone this repo ```git clone git@github.com:nicolasfigliozzi/staticwebsite.git```
+* Clone this repo ```git clone git@github.com:nfigliozzi/static-site.git```
 
 ## To run the site
 * Go to your project folder ```cd website```
