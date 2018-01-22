@@ -1,0 +1,14 @@
+{
+  "contact": {
+    "header": "",
+    "footer": "",
+    "title": "Contact Form",
+    "h1_title": "Contact us",
+    "description": ""
+  },
+  "404": {
+    "title": "404 Error",
+    "h1_title": "<b>404</b> Error",
+    "description": "Page not found"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "globals": {
+    "header": "partials/header",
+    "footer": "partials/footer",
+    "title": "Site name",
+    "h1_title": "Site <b>Name</b>",
+    "description": "Site description",
+    "bodyClass": "",
+    "jsFiles": ["jquery"]
+  }
+}

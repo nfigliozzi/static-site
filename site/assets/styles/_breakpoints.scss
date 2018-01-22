@@ -1,0 +1,13 @@
+//Original style is designed for 1440px, with responsive from 1281px to bigger
+
+//For small desktops designed from 1024 to 1280px, and available under 1280px
+$desktop: "screen and (max-width: 1280px)";
+//For tablets designed from 768 to 1023px, and available under 1023px:
+$tablet: "screen and (max-width: 1023px)";
+//For smartphones designed from 480 to 767px, and available under 767px:
+$smartphone: "screen and (max-width: 767px)";
+//For mobile and small devices from 320 to 479px
+$small-only: "screen and (max-width: 479px)";
+$smallphone: "screen and (max-width: 479px)";
+
+//Smaller than 320 is not under consideration.
