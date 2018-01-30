@@ -1,10 +1,12 @@
 {
   "globals": {
+    "siteName": "Site Name",
+    "siteUrl": "https://url.co",
     "header": "partials/header",
     "footer": "partials/footer",
-    "title": "Site name",
-    "h1_title": "Site <b>Name</b>",
-    "description": "Site description",
+    "title": "Page name",
+    "h1_title": "Page <b>Name</b>",
+    "description": "Site or Page description",
     "bodyClass": "",
     "jsFiles": ["jquery"]
   }
