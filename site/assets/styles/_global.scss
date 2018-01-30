@@ -336,7 +336,7 @@ a{
 		cursor: pointer;
 	}
 }
-.btn{
+button, .btn{
 	display: inline-block;
 	text-align: center;
 	line-height: 1;
@@ -393,6 +393,35 @@ ul{
 		li{
 			margin: 5px auto;
 		}
+	}
+}
+
+// 4--> Forms
+label{
+	display: block;
+}
+input{
+	background: none;
+	border: none;
+	border-bottom: solid 1px;
+	font-size: 1em;
+	padding: 0.5em 0;
+	margin-bottom: 0.5em;
+	&:focus{
+		outline: none;
+    box-shadow: 0px 1px 0;
+	}
+}
+textarea{
+	background: rgba(212, 212, 212, 0.01);
+	border: none;
+	border-bottom: solid 1px;
+	font-size: 1em;
+	padding: 0.5em 0;
+	margin-bottom: 2em;
+	&:focus{
+		outline: none;
+    box-shadow: 0px 1px 0;
 	}
 }
 

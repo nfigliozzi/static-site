@@ -3,8 +3,7 @@
     "header": "",
     "footer": "",
     "title": "Contact Form",
-    "h1_title": "Contact us",
-    "description": ""
+    "bodyClass": "contact"
   },
   "404": {
     "title": "404 Error",

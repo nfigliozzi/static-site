@@ -1,0 +1,18 @@
+body.contact{
+  background-color: $blue;
+  section{
+    background: none;
+    text-align: left;
+    padding: 60px;
+
+    input, textarea{
+      color: white;
+    }
+    a{
+      margin-left: 15px;
+    }
+    a:hover, a:focus, a:active{
+      color: $lightgray;
+    }
+  }
+}

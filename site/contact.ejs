@@ -1,60 +1,35 @@
-<section id="leadform">
+<section>
+  <h2>Work whith us.</h2>
+  <p>Hire our experienced engineers for your product or service.</p>
 
-  <div class="content-padding">
-    <div class="row">
-      <div id="content" class="small-11 medium-10 large-7 columns small-centered">
-        <h2 class="title-margin">Got a product that needs building?</h2>
-        <form action="" id="contact-form">
-          <div class="row">
-            <div class="small-5 columns"><h4>Name</h4></div>
-            <div class="small-7 columns"><input type="text" id="name"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Email</h4></div>
-            <div class="small-7 columns"><input type="email" id="email"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Phone</h4></div>
-            <div class="small-7 columns"><input type="text" id="phone"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Company</h4></div>
-            <div class="small-7 columns"><input type="text" id="company"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Type of Product</h4></div>
-            <div class="small-7 columns"><input type="text" id="type-product"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Budget</h4></div>
-            <div class="small-7 columns"><input type="text" id="budget"></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"><h4>Product Description</h4></div>
-            <div class="small-7 columns"><textarea name="" cols="30" rows="5" id="description"></textarea></div>
-          </div>
-
-          <div class="row">
-            <div class="small-5 columns"></div>
-            <div class="small-7 columns">
-              <button type="submit" class="button button-white button-bold button-thickborder">Get in Touch <img src="/images/button-arrowright-white@2x.png" alt="" class="button-icon"></button>
-            </div>
-          </div>
-
-        </form>
-      </div>
+  <form action="" id="contact-form">
+    <div>
+      <label>Name and Lastname</label>
+      <input type="text" id="name">
     </div>
-    <div class="row">
-      <div class="small-12 small-centered columns text-center">
-        <a href="/"><img src="/images/form-mark@2x.png" alt="" class="leadform-logo"></a>
-      </div>
-    </div>
-  </div>
 
+    <div>
+      <label>Email</label>
+      <input type="email" id="email">
+    </div>
+
+    <div>
+      <label>Company Name</label>
+      <input type="text" id="company">
+    </div>
+
+    <div>
+      <label>Budget</label>
+      <input type="number" min="1000" step="500" id="budget">
+    </div>
+
+    <div>
+      <label>Product Description</label>
+      <textarea name="" cols="40" rows="2" id="description"></textarea>
+    </div>
+    
+    <button type="submit"><span>Get in Touch</span></button>
+    <a href="/">Cancel</a>
+
+  </form>
 </section>
