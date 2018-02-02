@@ -1,8 +1,9 @@
 //Global Content functions
 function getContent(config, callback){
-  var accessToken = "4b56e62f783bcd65022c6573daffc250d521c0a702f2b7dc40e16125d0d15906",
-  space = "swxdzv5xwwu7",
-  contentfulUrl = "https://cdn.contentful.com/spaces/"+space+"/entries?content_type="+config.content+"&order=fields.order&access_token="+accessToken;
+  var accessToken = "contentfullaccesstoken",
+  space = "spaceId",
+  customquery = config.customquery?config.customquery:"",
+  contentfulUrl = "https://cdn.contentful.com/spaces/"+space+"/entries?content_type="+config.content+"&order=fields.order&access_token="+accessToken+customquery;
 
   $.get( contentfulUrl, function( data ) {
     config.assets = data.includes?data.includes.Asset:false;
