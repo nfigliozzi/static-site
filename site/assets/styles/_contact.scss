@@ -1,5 +1,5 @@
 body.contact{
-  background-color: $blue;
+  background-color: $color2;
   section{
     background: none;
     text-align: left;
@@ -12,7 +12,7 @@ body.contact{
       margin-left: 15px;
     }
     a:hover, a:focus, a:active{
-      color: $lightgray;
+      color: $color2;
     }
   }
 }
